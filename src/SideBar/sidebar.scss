@@ -1,0 +1,12 @@
+aside{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(187, 187, 187);
+    border-right: 1px solid black;
+}   
+
+@media only screen and (max-width: 600px) {
+    aside{
+        width: 35%;
+    }
+}

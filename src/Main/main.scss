@@ -1,0 +1,37 @@
+main {
+  width: 75%;
+  height: 100%;
+  background-color: rgb(231, 231, 231);
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 30px;
+  text-align: center;
+
+  .catImagesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  button {
+    padding: 10px 15px;
+    background-color: rgb(122, 219, 122);
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(86, 182, 86);
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 65%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}

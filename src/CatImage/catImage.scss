@@ -1,0 +1,32 @@
+.catImageContainer {
+  width: 40%;
+  margin: 10px 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px green;
+    transition: 0.5s;
+
+    &:hover {
+      box-shadow: 0 0 20px green;
+      transform: scale(1.2);
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .catImageContainer {
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+    .catImageContainer {
+      width: 22%;
+    }
+  }
